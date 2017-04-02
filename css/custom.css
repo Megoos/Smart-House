@@ -1,0 +1,57 @@
+
+body {
+    background: #30353b url("../images/bg.png") 0 0 repeat;
+}
+
+.vnav-counter {
+  float: right;
+  margin: -5px 20px 0 0 ;
+  padding: 5px 10px;
+  line-height: 23px; 
+  border-radius: 9px; 
+  background: #fcfcfc;
+  -webkit-box-shadow: inset 0 0 0 1px gainsboro;
+  box-shadow: inset 0 0 0 1px gainsboro;
+}
+
+.parametrs {
+  margin-top: 20px;
+}
+
+.parametrs>div {
+margin-bottom: 30px;
+font-size: 18px;
+}
+
+.fa-thermometer-full{
+color: #ff8800;
+}
+
+.fa-flask{
+color: #337ab7;
+}
+
+.fa-shower{
+  color: #3c763d;
+}
+
+.fa-sign-in {
+color: #a122db;
+}
+
+.fa-shield{
+  color: #dd1916;
+}
+
+.fa-clock-o{
+  color: #09c7fa;
+}
+
+.time{
+  border-bottom: 1px solid #eee;
+}
+
+.text-left{
+  margin-left: 20px;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Smart" />
+	<meta name="description" content="Smart House">
+	<meta name="author" content="Novosibirsk">
+
+	<title>Smart house</title>
+
+	<!-- Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="img/fav.png">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./switchs_files/lc_switch.css">
+
+	<!-- Add custom CSS here -->
+	<link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+	    <!-- <body onload="common()">	 -->
+			<body>
+	    	<div class="container">
+	    		<div class="page-header">
+	    			<h1>Умный дом - Автоматизация</h1>
+	    			<h2>Новосибирск 2017</h2>
+	    		</div>
+
+	    		<div class="row">
+	    			<div class="col-md-7">
+	    				<div class="center-block" style="width: 500px; height: 350px; display: block; background-color: lightgreen;"></div>
+	    			</div>
+	    			<div class="col-md-5 parametrs">
+							<div class="time">					
+	    					<p class="text-left"><i class="fa fa-clock-o"></i> Время: <span class="vnav-counter">22:10</span></p> 
+	    				</div>
+	    				<div>					
+	    					<p class="text-left"><i class="fa fa-thermometer-full"></i> Температура: <span class="vnav-counter">16 С</span></p> 
+	    				</div>
+	    				<div>
+	    					<p class="text-left"><i class="fa fa-flask"></i> Влажность: <span class="vnav-counter">80%</span></p>
+	    				</div>
+	    				<div>
+	    					<p class="text-left"><i class="fa fa-shower"></i> Внешнее освещение: <span class="vnav-counter">100</span></p>
+	    				</div>
+	    				<div>
+	    					<p class="text-left"><i class="fa fa-sign-in"></i> Дверь:<span class="vnav-counter">Закрыта</span></p>
+	    				</div>
+	    				<div> 
+	    					<p class="text-left"><i class="fa fa-shield"></i> Сигнализация: <span class="vnav-counter">Вкл</span></p>
+	    				</div>
+	    			</div>
+	    		</div>
+
+	    		 	<div class="row" style="margin-top: 40px;">
+	    			<div class="col-md-2 col-md-offset-1">	    			
+	    						<p> <b>Сигнализация</b><div class="lcs_wrap"><input id ="k1" type="checkbox" name="check-1" value="6" class="lcs_check" autocomplete="off"><div id="but1" class="lcs_switch lcs_off lcs_checkbox_switch"><div class="lcs_cursor"></div><div class="lcs_label lcs_label_on">ON</div><div class="lcs_label lcs_label_off">OFF</div></div></div></p>
+	    			</div>
+	    			<div class="col-md-2 ">
+	    				<p><b>Свет 1 этаж</b><div class="lcs_wrap"><input id ="k2"  type="checkbox" name="check-2" value="6" class="lcs_check lcs_tt1" checked="checked" autocomplete="off"><div id="but2" class="lcs_switch lcs_on lcs_checkbox_switch"><div class="lcs_cursor"></div><div class="lcs_label lcs_label_on">ON</div><div class="lcs_label lcs_label_off">OFF</div></div></div></p>
+	    			</div>
+	    			<div class="col-md-2 ">
+	    				<p><b>Свет 2 этаж</b><div class="lcs_wrap"><input id ="k3"  type="checkbox" name="check-3" value="6" class="lcs_check lcs_tt1" checked="checked" autocomplete="off"><div id="but3" class="lcs_switch  lcs_on lcs_checkbox_switch"><div class="lcs_cursor"></div><div class="lcs_label lcs_label_on">ON</div><div class="lcs_label lcs_label_off">OFF</div></div></div></p>
+	    			</div>
+	    			<div class="col-md-2 ">
+	    				<p><b>Жалюзи</b><div class="lcs_wrap"><input id ="k4"  type="checkbox" name="check-4" value="7" class="lcs_check lcs_tt1" checked="checked" autocomplete="off"><div id="but4" class="lcs_switch  lcs_on lcs_checkbox_switch"><div class="lcs_cursor"></div><div class="lcs_label lcs_label_on">ON</div><div class="lcs_label lcs_label_off">OFF</div></div></div></p>
+	    			</div>
+	    			<div class="col-md-2 ">
+	    				<p><b>Голос</b><div class="lcs_wrap"><input id ="k5"  type="checkbox" name="check-5" value="8" class="lcs_check lcs_tt1" checked="checked" autocomplete="off"><div id="but5" class="lcs_switch  lcs_on lcs_checkbox_switch"><div class="lcs_cursor"></div><div class="lcs_label lcs_label_on">ON</div><div class="lcs_label lcs_label_off">OFF</div></div></div></p>	
+	    			</div>
+	    		</div>
+	    	</div>
+
+
+				<script src="./switchs_files/jquery.min.js"></script>
+				<script src="./switchs_files/lc_switch.js" type="text/javascript"></script>
+	    	<script src="js/main.js" type="text/javascript"></script>
+	    		
+	    	</body>
+	    	</html>
